@@ -16,7 +16,7 @@ from torchvision import transforms
 
 from src.face_detector import FaceDetectionResult
 
-L2CS_ROOT = Path(__file__).resolve().parents[1] / "models" / "L2CS-Net"
+L2CS_ROOT = Path(__file__).resolve().parents[1] / "models"
 if str(L2CS_ROOT) not in sys.path:
     sys.path.insert(0, str(L2CS_ROOT))
 

@@ -148,7 +148,7 @@ def main() -> None:
     imgsz = 640
     device = None  # Example: "cuda:0" or "cpu"
 
-    gaze_weights = Path("models") / "L2CS-Net" / "models" / "Gaze360" / "L2CSNet_gaze360.pkl"
+    gaze_weights = Path("models") / "models" / "Gaze360" / "L2CSNet_gaze360.pkl"
     gaze_arch = "ResNet50"
     gaze_device = "cpu"  # Example: "cuda:0" or "cpu"
     gaze_line_length = None  # None = bbox width * gaze_line_scale

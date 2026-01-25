@@ -216,7 +216,7 @@ class Scene3DEstimator:
                 )
                 dir_vec *= gaze_length
                 dir_vec = rot_cam @ dir_vec
-
+                
                 start_3d = np.array([0.0, 0.0, 0.0], dtype=np.float32)
                 end_3d = dir_vec
                 proj = self._project_points(np.stack([start_3d, end_3d], axis=0), width, height, camera_matrix)
