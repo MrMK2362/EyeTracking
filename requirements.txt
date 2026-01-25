@@ -1,0 +1,8 @@
+ultralytics
+opencv-python
+numpy
+torch
+torchvision
+scipy
+pillow
+mediapipe==0.10.9
