@@ -38,8 +38,7 @@ class HeadPoseFrameResult:
 class HeadPoseEstimator:
     """Estimates head rotation with solvePnP and draws 3D axes."""
 
-    # MediaPipe landmark indices (FaceMesh):
-    # https://github.com/google/mediapipe/blob/master/mediapipe/python/solutions/face_mesh_connections.py
+    # MediaPipe landmark indices (FaceMesh): https://github.com/google/mediapipe/blob/master/mediapipe/python/solutions/face_mesh_connections.py
     LANDMARK_IDXS = {
         "nose_tip": 1,
         "chin": 152,

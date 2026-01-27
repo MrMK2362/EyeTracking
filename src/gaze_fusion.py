@@ -25,8 +25,8 @@ class GazeFusionConfig:
     line_color: Tuple[int, int, int] = (0, 0, 255)  # BGR red
     iris_scale: float = 6.0  # Used when L2CS length is unavailable
     process_noise: float = 1.0
-    l2cs_meas_noise: float = 25.0
-    iris_meas_noise: float = 9.0
+    l2cs_meas_noise: float = 10.0
+    iris_meas_noise: float = 36.0
 
 
 @dataclass
